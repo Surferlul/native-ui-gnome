@@ -1,0 +1,13 @@
+[package]
+name = "native-ui-gnome"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+native-ui-rs = { git = "https://github.com/Surferlul/native-ui-rs" }
+
+[dependencies.adw]
+package = "libadwaita"
+version = "0.1.1"
